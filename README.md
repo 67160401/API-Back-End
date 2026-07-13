@@ -2,26 +2,22 @@
 
 ```
 student-api/
-├── node_modules/
 ├── index.js
 ├── package.json
-├── package-lock.json
 ├── postman-collection.md
 └── README.md
 ```
 
-- **node_modules/** : เก็บไลบรารีที่ติดตั้ง เช่น Express
-- **index.js** : ไฟล์หลักของโปรเจกต์ ใช้สร้าง Express Server, กำหนด Mock Data และ API สำหรับ CRUD (GET, POST, PUT, DELETE)
-- **package.json** : กำหนดข้อมูลโปรเจกต์, dependencies และ scripts
-- **package-lock.json** : ล็อกเวอร์ชันของ dependencies เพื่อให้ติดตั้งได้เหมือนกันทุกเครื่อง
-- **postman-collection.md** : 
-- **README.md** : 
+- **index.js** : ใช้สร้าง Express Server กำหนด Mock Data และ API สำหรับ CRUD
+- **package.json** : กำหนดข้อมูลโปรเจกต์ dependencies และ scripts
+- **postman-collection.md** : รวมภาพหน้าจอการแสดงผลจากการทดสอบ API ด้วย Postman ทั้งหมด 6 กรณี
+- **README.md** : ส่วนอธิบายโครงสร้างโปรเจกต์และการตอบคำถามในขั้นตอนที่ 3.2 จาก wk01-lab.md
 
 <br>
 
 ## ขั้นตอนที่ 3.2 ทบทวนคุณภาพของโค้ด
 **โค้ดใน index.js มีการตรวจสอบข้อมูลนำเข้า (validation) ก่อนประมวลผลหรือไม่**
-- มีการตรวจสอบ
+- มีการตรวจสอบก่อน
 <br>
 
 **ทุก route มีการตอบกลับด้วย Status Code ที่เหมาะสมกับผลลัพธ์หรือไม่**
