@@ -1,7 +1,7 @@
 ## คำอธิบายโครงสร้างโปรเจกต์
 
 ```
-student-api/
+wk01-67160401/
 ├── index.js
 ├── package.json
 ├── postman-collection.md
